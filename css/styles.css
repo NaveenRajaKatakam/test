@@ -1,0 +1,579 @@
+body {
+    font-family: 'Open Sans Condensed', sans-serif;
+}
+
+.container {
+    max-width: 1024px;
+}
+
+.fixed-header {
+    position: fixed;
+    top: 0;
+    z-index: 1000;
+}
+
+.logo {
+    width: 100px;
+    position: absolute;
+}
+
+.top_links {
+    height: 25px;
+    text-align: right;
+}
+
+.top_links ul {
+    display: inline-flex;
+    text-align: right;
+    margin-bottom: 0rem;
+}
+
+.top_links ul li {
+    list-style-type: none;
+    font-size: 0.75rem;
+}
+
+.top_links ul li a {
+    color: #000;
+    font-weight: bold;
+    margin: 0 0 2rem 2rem;
+    text-decoration: none;
+}
+
+.main_menu {
+    height: 45px;
+}
+
+.navbar-light .navbar-nav .nav-link {
+    font-weight: bold;
+}
+
+.navbar-light .navbar-nav .nav-link:hover {
+    color: #36c7cf;
+}
+
+.banner {
+    padding-top: 150px;
+    background-color: #cdd5da;
+    padding-bottom: 100px;
+    background: url(../images/cloud.jpg) no-repeat 0 0;
+    background-size: cover;
+    position: relative;
+}
+
+.banner .hand {
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    background: url(../images/img_hand.png) no-repeat 400px;
+    background-position: right bottom;
+    background-size: 533px;
+    right: -18px;
+    bottom: 40px;
+}
+
+.banner-header {
+    font-size: 2.5rem;
+    font-weight: bold;
+    line-height: 1;
+}
+
+.text-yello {
+    color: #efc84c;
+}
+
+.text-green {
+    color: #61c292
+}
+
+.banner-header-desc {
+    font-size: 1.64rem;
+    margin-top: 0.5rem;
+}
+
+form.search-form .cources-input {
+    border-radius: 60px;
+}
+
+form.search-form .cources-btn {
+    border-radius: 60px;
+    background: #abaf5c;
+    border-color: #abaf5c;
+}
+
+section.cards {
+    margin-top: -50px;
+}
+
+.cards {
+    color: white;
+}
+
+.cards .icon {
+    font-size: 3rem;
+}
+
+.cards .title {
+    font-weight: bold;
+    text-transform: uppercase;
+    font-size: 1.3rem;
+    margin-top: 1rem;
+}
+
+.card {
+    border-radius: 0rem!important;
+    border: 0px !important;
+    background-color: #24b187;
+    margin-bottom: 1rem;
+}
+
+.card2 {
+    background-color: #e6503d;
+}
+
+.card3 {
+    background-color: #efc84c;
+}
+
+.rounded-start {
+    border-bottom-left-radius: 1.5rem!important;
+    border-top-left-radius: 1.5rem!important;
+}
+
+.rounded-top {
+    border-top-left-radius: 1.5rem!important;
+    border-top-right-radius: 1.5rem!important;
+}
+
+.card-body1 {
+    flex: 1 1 auto;
+    padding: 0rem!important;
+}
+
+.description {
+    font-size: 1.2rem;
+    color: #818184;
+    padding: 1rem 0rem;
+}
+
+.description2 h2 {
+    font-weight: bold;
+}
+
+.program {
+    padding-top: 1rem;
+}
+
+.program h3 {
+    font-weight: bold;
+}
+
+.program p {
+    font-size: 1.2rem;
+}
+
+.program .cources-btn {
+    border-radius: 60px;
+    background: #61c292;
+    border-color: #61c292;
+}
+
+.donate-section {
+    margin-top: 1rem;
+    padding: 2rem 0rem;
+    color: white;
+    background: url(../images/school_bg.jpeg) no-repeat 0 0, linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5));
+    background-size: cover;
+    background-blend-mode: overlay;
+}
+
+.donate-section h3 {
+    text-align: center;
+    font-weight: bold;
+}
+
+.donate-section p {
+    font-size: 1.2rem;
+}
+
+.donate-section .cources-btn {
+    border-radius: 60px;
+    background: #efc84c;
+    border-color: #efc84c;
+    font-weight: bold;
+    margin-top: 1.5rem;
+}
+
+.courses-for-nurses {
+    margin-top: 2rem;
+}
+
+.courses-for-nurses h3 {
+    font-weight: bold;
+    text-align: center;
+}
+
+.courses-for-nurses .cards {
+    text-align: center;
+}
+
+.courses-for-nurses .cources-btn {
+    border-radius: 60px;
+    background: #000;
+    border-color: #000;
+    font-weight: bold;
+    font-size: 1rem;
+    margin-top: 1.5rem;
+}
+
+.other-courses h4 {
+    font-weight: bold;
+}
+
+.other-courses p {
+    font-size: 1.2rem;
+}
+
+.cources-slides {}
+
+.swiper {
+    width: 100%;
+    height: 250px;
+    margin-top: 1rem;
+}
+
+.swiper-slide {
+    text-align: center;
+    font-size: 18px;
+    background: #fff;
+    /* Center slide text vertically */
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: -webkit-flex;
+    display: flex;
+    -webkit-box-pack: center;
+    -ms-flex-pack: center;
+    -webkit-justify-content: center;
+    justify-content: center;
+    -webkit-box-align: center;
+    -ms-flex-align: center;
+    -webkit-align-items: center;
+    align-items: center;
+}
+
+.swiper-pagination-bullet {
+    width: 20px;
+    height: 20px;
+    text-align: center;
+    line-height: 20px;
+    font-size: 12px;
+    color: #000;
+    opacity: 1;
+    background: rgba(0, 0, 0, 0.2);
+}
+
+.swiper-pagination-bullet-active {
+    color: #fff;
+    background: #007aff;
+}
+
+.swiper-slide img {
+    display: block;
+    width: 100%;
+    /*height: 100px;*/
+    object-fit: cover;
+}
+
+.swiper-slide .swiper-slide-card {
+    height: 300px;
+    width: 100%;
+    box-shadow: rgba(50, 50, 93, 0.25) 0px 2px 5px -1px, rgba(0, 0, 0, 0.3) 0px 1px 3px -1px;
+    border-radius: 0 0 6rem 0;
+}
+
+.swiper-slide .swiper-slide-card-doctors {
+    height: 300px;
+    width: 100%;
+    background-size: contain;
+}
+
+.swiper-slide .swiper-slide-card:hover {
+    background-color: #efc84c;
+}
+
+.swiper-slide-card .card-body {
+    padding-top: 2.5rem;
+    text-align: left;
+}
+
+.swiper-slide-card .card-body .icon {
+    font-size: 2.5rem;
+}
+
+.swiper-slide-card .card-body h4 {
+    font-weight: bold;
+    font-size: 1.2rem;
+    margin-top: 1rem;
+}
+
+.bottom-nav {
+    text-align: right;
+    color: #ccc;
+}
+
+.bottom-nav__item {
+    padding: 0.8rem 1rem;
+    margin-left: 0.5rem;
+    border-radius: 50%;
+    width: 34px;
+    height: 20px;
+}
+
+.bottom-nav__item:hover {
+    background-color: #61c292;
+    color: white;
+}
+
+.swiper-button-disabled:hover {
+    background-color: rgba(250, 120, 120, 0.02) !important;
+    color: #ccc;
+}
+
+.register-section {
+    margin-top: 1rem;
+    padding: 2rem 0rem;
+    color: white;
+    background: url(../images/nurses_bg.jpg) no-repeat 0 0, linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5));
+    background-size: cover;
+    background-blend-mode: overlay;
+}
+
+.register-section .rounded-top {
+    border-top-left-radius: 1rem!important;
+    border-top-right-radius: 1rem!important;
+}
+
+.register-section .rounded-left {
+    border-bottom-left-radius: 1rem!important;
+    border-top-left-radius: 1rem!important;
+}
+
+.register-section .cardreg {
+    border-radius: 3rem;
+    border: 0px !important;
+    background-color: #24b187;
+    margin-bottom: 1rem;
+}
+
+.register-section .icon {
+    color: #36c7cf;
+}
+
+.register-section h3 {
+    text-align: center;
+    font-weight: bold;
+}
+
+.register-section p {
+    font-size: 1.5rem;
+    margin-top: 1rem;
+    padding: 1rem 2rem;
+}
+
+.register-section .cources-btn {
+    border-radius: 60px;
+    background: #efc84c;
+    border-color: #efc84c;
+    font-weight: bold;
+    font-size: 1.0rem;
+    padding: 0.5rem 0rem;
+}
+
+.register-section .cards {
+    text-align: center;
+    color: #000;
+}
+
+/*.register-section .cards>p {
+    font-weight: bold;
+    text-transform: uppercase;
+    font-size: 1rem;
+    margin-top: 1rem;
+}*/
+
+.p_bold {
+    font-weight: bold;
+    text-transform: uppercase;
+    margin-top: 1rem;
+}
+
+.register-section .cardreg {
+    background-color: #fff;
+}
+
+.register-section .cources-btn {
+    border-radius: 60px;
+    background: #61c292;
+    border-color: #61c292;
+}
+
+.stories {
+    margin-top: 1rem;
+    text-align: left;
+}
+
+.stories h3 {
+    font-weight: bold;
+    text-align: center;
+}
+
+.stories .story-card {
+    padding: 0.75rem;
+    border-radius: 0 0 6rem 0;
+    border: 1px solid #ccc;
+    text-align: left;
+}
+
+.story-card strong {
+    font-size: 0.9rem;
+}
+
+.stories .swiper-story-slide {
+    margin-top: 0.75rem;
+    height: auto;
+    width: 100%;
+}
+
+.story-card p {
+    margin-top: 1rem;
+    font-size: 1.2rem;
+    color: #b6b6b8;
+}
+
+.story-card .thumb {
+    width: 50px;
+    height: auto;
+}
+
+.mySwiper {
+    height: 380px;
+}
+
+.mySwiper3 {
+    height: 360px;
+}
+
+.learners {
+    margin-top: 1rem;
+    padding: 2rem 0rem;
+    background: url(../images/doctor2.jpg) no-repeat 0 0, #edf1f5;
+    background-size: 40% auto;
+}
+
+.learners .sub-title {
+    margin-top: 1rem;
+    font-size: 1rem;
+}
+
+.learners .sub-title p {
+    color: #b6b6b8;
+}
+
+.partner-with-us {
+    margin-top: 1rem;
+    padding: 2rem 0rem;
+}
+
+.partner-with-us .rounded-top {
+    border-top-left-radius: 1rem!important;
+    border-top-right-radius: 1rem!important;
+}
+
+.partner-with-us .rounded-left {
+    border-bottom-left-radius: 1rem!important;
+    border-top-left-radius: 1rem!important;
+}
+
+.partner-with-us .cardreg {
+    border-radius: 3rem;
+    border: 0px !important;
+    margin-bottom: 1rem;
+    box-shadow: rgba(149, 157, 165, 0.2) 0px 8px 24px;
+}
+
+.partner-with-us .icon {
+    color: #36c7cf;
+}
+
+.partner-with-us h3 {
+    text-align: center;
+    font-weight: bold;
+}
+
+.partner-with-us p {
+    font-size: 1.5rem;
+    margin-top: 1rem;
+    padding: 1rem 2rem;
+}
+
+.partner-with-us .cources-btn {
+    border-radius: 60px;
+    background: #61c292;
+    border-color: #61c292;
+    font-weight: bold;
+    font-size: 1.0rem;
+    padding: 0.5rem 0rem;
+}
+
+.partner-with-us .cards {
+    text-align: center;
+    color: #000;
+}
+
+.key-partners {
+    margin-top: 1rem;
+    padding: 2rem 0rem;
+}
+
+.key-partners h3 {
+    text-align: center;
+    font-weight: bold;
+}
+
+.main-footer {
+    padding: 2rem;
+    background: #edf1f5;
+}
+
+.main-footer h4 {
+    font-weight: bold;
+    margin-top: 1rem;
+}
+
+.main-footer ul li {
+    width: 50%;
+    float: left;
+}
+
+.main-footer img {
+    width: 150px;
+}
+
+.footer {
+    background: #0b1836;
+    padding: 0.75rem;
+    text-align: center;
+    color: white;
+}
+
+@media screen and (max-width: 992px) {
+    .learners {
+        background: #edf1f5;
+    }
+    .navbar-collapse {
+        background: #ccc;
+        padding: 1rem;
+        margin-top: 5rem;
+        border-radius: 1rem;
+    }
+}
